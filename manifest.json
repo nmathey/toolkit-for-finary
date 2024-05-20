@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Toolkit for Finary",
+    "version": "1.0",
+    "description": "Une extension pour intéragir avec Finary",
+    "permissions": ["contextMenus", "scripting", "activeTab", "cookies", "storage","tabs"],
+    "host_permissions": ["https://*/*"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
